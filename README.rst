@@ -29,3 +29,9 @@ Quickstart
 Ensure you have cookiecutter installed, and then:
 
     cookiecutter git@github.com:harmy/django-starter.git
+
+Then from your generated project:
+
+    bower install
+    
+    python manage.py migrate
